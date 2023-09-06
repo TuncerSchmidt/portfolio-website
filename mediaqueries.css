@@ -1,6 +1,6 @@
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1600px) {
     #desktop-nav{
         display: none;
     }
@@ -27,10 +27,20 @@
     section{
         margin: 0 5%;
     }
-    .section__pic-container{
-        width: 275px;
-        height: 275px;
+    .section__pic-container2{
+        width: 400px;
+        height: 400px;
         margin: 0 auto 2rem;
+    }
+    .section__pic-container{
+        width: 400px;
+        height: 400px;
+        margin: 0 auto 2rem;
+        justify-content: center;
+    }
+    .article-containe3{
+        width: 50rem;
+        height: 50rem;
     }
     .about-containers{
         margin-top: 0;
@@ -76,11 +86,13 @@
         gap: 0.5rem;
         text-align: center;
     }
+    
     .section__pic-container{
         width: auto;
-        height: 46vw;
+        height: 25rem;
         justify-content: center;
     }
+    
     
     .section__text__p2{
         font-size: 1.25rem;
@@ -95,4 +107,5 @@
     .text-container{
         text-align: justify;
     }
+    
 }
